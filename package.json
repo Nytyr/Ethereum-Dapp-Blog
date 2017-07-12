@@ -1,0 +1,20 @@
+{
+  "name": "dapp-demo",
+  "version": "1.0.0",
+  "description": "Simple micro blog service",
+  "main": "index.js",
+  "scripts": {
+    "blockchain": "testrpc",
+    "compile": "node ./src/bin/deployContract.js",
+    "web": "http-server -a localhost -p 8000 -c-1 ./src/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nytyr",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-testrpc": "^4.0.1",
+    "http-server": "^0.10.0",
+    "solc": "^0.4.13",
+    "web3": "^0.19.1"
+  }
+}
