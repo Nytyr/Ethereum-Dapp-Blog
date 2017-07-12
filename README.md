@@ -18,6 +18,9 @@ Compile and deploy the smart contract
 npm run compile
 ```
 
+Modify src/www/app.js with the output of the compile
+
+
 Run the web server
 ```
 npm run web
